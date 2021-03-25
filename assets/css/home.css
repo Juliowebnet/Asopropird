@@ -1,0 +1,651 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+li {
+    list-style: none;
+}
+
+#cabecera-principal {
+    background: url(https://asopropird.com/img/swimmers-79592.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    color: #ffffff;
+    padding: 30px 0;
+}
+
+#cabecera-principal ul {
+    text-align: right;
+    margin: 0 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#cabecera-principal ul li a {
+    margin: 0 10px;
+}
+
+#cabecera-principal ul a:hover {
+    color: #2680eb;
+}
+
+.texto-cabecera {
+    text-align: center;
+    font-size: 2.3em;
+    margin: 7% 0 3% 0;
+}
+
+.titulo-cabecera {
+    font-size: 3em;
+    letter-spacing: 10px;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.botones-cabecera-principal {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.botones-cabecera-principal a {
+    width: 15%;
+    height: 47%;
+    margin: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms;
+}
+
+.botones-cabecera-principal a:hover {
+    margin-bottom: 20px;
+}
+
+.boton1 {
+    width: 100%;
+    height: 100%;
+    background: #2680eb;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.boton3 {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 17px;
+    color: #2680eb;
+}
+
+#contenido {
+    background: url(https://asopropird.com/img/water-103817.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#tipo-socio {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.socios {
+    height: 100%;
+    width: 25%;
+}
+
+#persona {
+    background: url(https://asopropird.com/img/limpieza-y-mantenimiento-de-piscinas-en-marbella-1024x576-768x432.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#empresa {
+    background: url(https://asopropird.com/img/Operador-Piscina.jpg);
+    background-position: left;
+    background-size: cover;
+}
+
+#aliado {
+    background: url(https://asopropird.com/img/beach-chairs-clouds-hotel-338504.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.capa-oscura {
+    height: 100%;
+    width: 100%;
+    background: rgba(51, 49, 49, 0.60);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
+
+.socio-img {
+    width: 30%;
+    height: 20%;
+}
+
+.socio-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.socios .capa-oscura a {
+    height: 7%;
+}
+
+#factory-icon {
+    width: 40%;
+}
+
+#hotel-icon {
+    width: 20%;
+}
+
+.socio-text {
+    text-align: center;
+}
+
+.socio-boton {
+    width: 100%;
+    height: 100%;
+    border: solid 2px #ffffff;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+    margin: 0 20px;
+}
+
+.socio-boton:hover {
+    border: solid 2px #2680eb;
+    background: #2680eb;
+    color: #ffffff;
+}
+
+.llamado-accion {
+    height: 100px;
+    width: 100%;
+    background: rgba(51, 49, 49, 0.74);
+    margin: 70px 0;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+}
+
+.llamado-accion p {
+    font-size: 1.6em;
+}
+
+.llamado-accion a {
+    width: 12%;
+    height: 35%;
+    margin: 0 20px;
+}
+
+.boton2 {
+    width: 100%;
+    height: 100%;
+    border: solid 2px #ffffff;
+    border-radius: 30px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2680eb;
+}
+
+.boton2:hover {
+    border: solid 2px #2680eb;
+    background: #2680eb;
+    color: #ffffff;
+}
+
+#instagram {
+    height: 430px;
+    width: 100%;
+    margin: 30px 0;
+}
+
+footer {
+    height: 400px;
+    width: 100%;
+    background: rgba(51, 49, 49, 0.74);
+    color: #ffffff;
+    padding-top: 30px;
+}
+
+#logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo-footer img {
+    height: 100%;
+}
+
+.contenido-footer {
+    width: 100%;
+    height: 70%;
+    margin: 20px 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contacto-footer span {
+    color: #2680eb;
+    font-size: 1.7em;
+}
+
+.bloque-footer {
+    width: 30%;
+    height: 100%;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.copyright p a {
+    color: #2680eb;
+}
+
+.contenedor-redes-sociales {
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+}
+
+.contenedor-redes-sociales div a img {
+    height: 100%;
+    margin: 0 10px;
+}
+
+/* Animaciones letras del titulo */
+
+.letra-a {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 140px;
+    width: 100px;
+    animation-name: letra;
+    animation-duration: 0.5s;
+    animation-delay: 900ms;
+}
+
+.letra-a1, .letra-a2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letra-a1 {
+    height: 100%;
+    width: 100%;
+    color: #2680eb;
+    animation-name: letra-a;
+    animation-duration: 0.5s;
+    animation-delay: 1s;
+}
+
+.letra-a1 img {
+    height: 65%;
+}
+
+.letra-oculta {
+    margin-top: -150%;
+}
+
+.letra-a2 {
+    height: 100%;
+    width: 100%;
+}
+
+.letra-s {
+    animation-name: letra;
+    animation-duration: 0.5s;
+    animation-delay: 800ms;
+}
+
+.letra-o {
+    animation-name: letra;
+    animation-duration: 0.5s;
+    animation-delay: 700ms;
+}
+
+.letra-p {
+    animation-name: letra;
+    animation-duration: 0.5s;
+    animation-delay: 600ms;
+}
+
+.letra-r {
+    animation-name: letra;
+    animation-duration: 0.5s;
+    animation-delay: 500ms;
+}
+
+.letra-o2 {
+    animation-name: letra;
+    animation-duration: 0.5s;
+    animation-delay: 400ms;
+}
+
+.letra-p2 {
+    animation-name: letra;
+    animation-duration: 0.5s;
+    animation-delay: 300ms;
+}
+
+.letra-i {
+    animation-name: letra;
+    animation-duration: 0.5s;
+    animation-delay: 200ms;
+}
+
+.letra-r2 {
+    animation-name: letra;
+    animation-duration: 0.5s;
+    animation-delay: 100ms;
+}
+
+.letra-d {
+    animation-name: letra;
+    animation-duration: 0.5s;
+}
+
+@keyframes letra {
+    0% {
+        margin-bottom: 0;
+    }
+    25% {
+        margin-bottom: 50px;
+    }
+    50% {
+        margin-bottom: 100px;
+    }
+    75% {
+        margin-bottom: 50px;
+    }
+    100% {
+        margin-bottom: 0;
+    }
+}
+
+@keyframes letra-a {
+    0% {
+        margin-top: -150%;
+    }
+    25% {
+        margin-top: -140%;
+    }
+    50% {
+        margin-top: -100%;
+    }
+    75% {
+        margin-top: -50%;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+
+/* Creamos los estilos para telefono */
+
+@media only screen and (max-width: 900px) {
+    #contenido{
+        background-attachment: scroll;
+    }
+    #cabecera-principal {
+        background-position: center;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 0;
+    }
+    .letra-a {
+        height: 45px;
+        width: 30px;
+    }
+    .texto-cabecera {
+        margin: 0;
+        padding-top: 15%;
+    }
+    .titulo-cabecera {
+        font-size: 1em;
+        letter-spacing: 5px;
+        height: 100px;
+    }
+    .texto-cabecera p {
+        font-size: 0.5em;
+        margin: 25% 0;
+    }
+    .botones-cabecera-principal {
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .botones-cabecera-principal a {
+        width: 90%;
+        height: 40px;
+        margin: 15px 0;
+    }
+    .boton1 {
+        width: 100%;
+        height: 100%;
+    }
+    .boton3 {
+        width: 100%;
+        height: 100%;
+    }
+    #tipo-socio {
+        height: auto;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .socios {
+        width: 100vw;
+        height: 500px;
+        margin: 15px 0;
+    }
+    .socio-text {
+        margin: 0 10px;
+    }
+    #persona-icon {
+        width: 100%;
+        height: 30%;
+    }
+    .socios a {
+        width: 100%;
+        height: 40px;
+    }
+    .socio-boton {
+        width: 90%;
+        height: 100%;
+        background: #ffffff;
+        color: #2680eb;
+        align-self: center;
+        margin: 0 auto;
+    }
+    .llamado-accion {
+        height: 200px;
+        margin: 40px 0;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .llamado-accion p {
+        width: 100%;
+        text-align: center;
+    }
+    .llamado-accion a {
+        width: 100%;
+        height: 20%;
+    }
+    .boton2 {
+        width: 90%;
+        height: 100%;
+    }
+    footer {
+        height: auto;
+    }
+    #logo-footer, #mapa-footer {
+        display: none;
+    }
+    .contenido-footer {
+        flex-wrap: wrap;
+    }
+    #contacto-footer {
+        width: 100%;
+        text-align: center;
+    }
+    .contenedor-redes-sociales {
+        justify-content: center;
+    }
+    .copyright {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .copyright p {
+        width: 100%;
+        text-align: center;
+        margin: 3px 0;
+    }
+    /* ----------------------------------------------- */
+    /* ----------------------------------------------- */
+    /* ----------------------------------------------- */
+    /* Estilos del nav para telefonos */
+    #menu_desplegable {
+        overflow: hidden;
+        position: fixed;
+        width: 100vw;
+        height: 70vh;
+        z-index: 50;
+        top: 50px;
+    }
+    .contenedor_boton_menu {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        z-index: 50;
+    }
+    .boton_menu {
+        height: 50px;
+        width: 50px;
+        background: rgba(51, 49, 49, 0.80);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #mini_menu, #mini_menu::before, #mini_menu::after {
+        content: '';
+        display: block;
+        height: 3px;
+        width: 1.75em;
+        border-radius: 3px;
+        background: #ffffff;
+        transition: all ease-in-out 500ms;
+    }
+    #mini_menu::before {
+        transform: translateY(-6px);
+    }
+    #mini_menu::after {
+        transform: translateY(3px);
+    }
+    .cerrar-menu #mini_menu {
+        transform: rotate(45deg);
+    }
+    .cerrar-menu #mini_menu::before {
+        opacity: 0;
+    }
+    .cerrar-menu #mini_menu::after {
+        transform: translateY(-3px) rotate(-90deg);
+    }
+    nav {
+        width: 100%;
+        height: 100%;
+        background: rgba(51, 49, 49, 0.80);
+        padding-top: 20px;
+        transition: 300ms;
+    }
+    .oculto {
+        margin-left: 100%;
+    }
+    .oculto2 {
+        display: none;
+    }
+    #cabecera-principal ul {
+        margin: 0;
+        display: block;
+    }
+    nav ul li {
+        margin: 0 0 20px 0;
+        border-bottom: solid 2px #2680eb;
+        text-align: center;
+        width: 100%;
+    }
+    nav ul li a {
+        margin: 5px;
+    }
+}

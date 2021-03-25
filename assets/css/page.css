@@ -1,0 +1,286 @@
+/* estilos generales de las paginas */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+}
+
+/* body{
+    background: url(../img/fondo-piscina.png);
+} */
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:link {
+    color: #ffffff;
+}
+
+/* estilos de la cabecera */
+
+header {
+    background: url(../img/swimmers-79592.jpg);
+    /* background: url(../img/beach-coastline-daylight-1268871.jpg); */
+    background-size: cover;
+    background-position: 0 -220px;
+    /* background-position: 0 -420px; */
+    /* background-position: center; */
+    background-attachment: fixed;
+    height: 300px;
+    width: 100%;
+}
+.capa-oscura-50 {
+    height: 100%;
+    width: 100%;
+    background: rgba(51, 49, 49, 0.50);
+}
+.capa-oscura-10 {
+    height: 100%;
+    width: 100%;
+    background: rgba(51, 49, 49, 0.10);
+}
+nav {
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    padding: 15px 0;
+}
+nav ul {
+    padding: 7px 0;
+    margin: 0 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li a {
+    margin: 0 10px;
+}
+
+nav ul li a:hover {
+    color: #2680eb;
+}
+
+/* estilos generales para el contenido */
+.columna {
+    height: 80%;
+    width: 50%;
+    text-align: justify;
+}
+li {
+    list-style: none;
+}
+
+.columna ul li {
+    margin: 20px 0 0 50px;
+    list-style: none;
+    display: flex;
+}
+.columna ul li img {
+    height: 20px;
+    margin: 0 10px;
+}
+.padding-30 {
+    padding: 30px;
+}
+
+.padding-30-50 {
+    padding: 30px 50px;
+}
+/* estilos para el footer */
+footer {
+    height: 400px;
+    width: 100%;
+    background: url(../img/water-103817.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+}
+.capa-oscura-74 {
+    height: 100%;
+    width: 100%;
+    background: rgba(51, 49, 49, 0.74);
+}
+
+#logo-footer {
+    height: 100%;
+}
+
+#logo-footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#logo-footer img {
+    height: 100%;
+}
+
+.contenido-footer {
+    width: 100%;
+    height: 70%;
+    margin: 0 0 20px 0;
+    padding: 35px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contacto-footer span {
+    color: #2680eb;
+    font-size: 1.7em;
+}
+
+.contenedor-redes-sociales {
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+}
+
+.contenedor-redes-sociales div a img {
+    height: 100%;
+    margin: 0 10px;
+}
+
+.bloque-footer {
+    width: 30%;
+    height: 100%;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.copyright p a {
+    color: #2680eb;
+}
+
+@media only screen and (max-width: 900px) {
+    /* ----------------------------------------------- */
+    /* ----------------------------------------------- */
+    /* ----------------------------------------------- */
+    /* Estilos del footer para telefonos */
+    header {
+        background-size: cover;
+        background-position: center;
+        background-attachment: scroll;
+        height: 300px;
+        width: 100%;
+    }
+    .padding-30-50 {
+        padding: 30px 10px;
+    }
+    .columna ul li {
+        margin: 20px 0 0 0;
+    }
+    footer {
+        height: auto;
+    }
+    #logo-footer, #mapa-footer {
+        display: none;
+    }
+    .contenido-footer {
+        flex-wrap: wrap;
+    }
+    #contacto-footer {
+        width: 100%;
+        text-align: center;
+    }
+    .contenedor-redes-sociales {
+        justify-content: center;
+    }
+    .copyright {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .copyright p {
+        width: 100%;
+        text-align: center;
+        margin: 3px 0;
+    }
+    /* ----------------------------------------------- */
+    /* ----------------------------------------------- */
+    /* ----------------------------------------------- */
+    /* Estilos del nav para telefonos */
+    #menu_desplegable{
+        overflow: hidden;
+        position: fixed;
+        width: 100vw;
+        height: 70vh;
+        z-index: 50;
+        top: 50px;
+    }
+    .contenedor_boton_menu{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        z-index: 50;
+        transition: 150ms;
+    }
+    .boton_menu{
+        height: 50px;
+        width: 50px;
+        background: rgba(51, 49, 49, 0.80);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #mini_menu, #mini_menu::before, #mini_menu::after{
+        content: '';
+        display: block;
+        height: 3px;
+        width: 1.75em;
+        border-radius: 3px;
+        background: #ffffff;
+        transition: all ease-in-out 500ms;
+    }
+    #mini_menu::before{
+        transform: translateY(-6px);
+    }
+    #mini_menu::after{
+        transform: translateY(3px);
+    }
+    .cerrar-menu #mini_menu{
+        transform: rotate(45deg);
+    }
+    .cerrar-menu #mini_menu::before{
+        opacity: 0;
+    }
+    .cerrar-menu #mini_menu::after{
+        transform: translateY(-3px) rotate(-90deg);
+    }
+
+    nav {
+        width: 100%;
+        height: 100%;
+        background: rgba(51, 49, 49, 0.80);
+        padding: 0;
+        transition: 300ms;
+    }
+    .oculto{
+        margin-left: 100%;
+    }
+    .oculto2{
+        display: none;
+    }
+    nav ul {
+        margin: 0;
+        display: block;
+    }
+    nav ul li {
+        margin: 20px;
+        border-bottom: solid 2px #2680eb;
+        text-align: center;
+    }
+    nav ul li a {
+        margin: 5px;
+    }
+}

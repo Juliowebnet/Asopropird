@@ -1,0 +1,179 @@
+#nosotros{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    margin: 30px 0;
+    animation-name: aparece;
+    animation-duration: 2s;
+}
+.opacity-0{
+    opacity: 0;
+}
+@keyframes aparece{
+    0%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0.2;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.8;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+.img-nosotros{
+    background: url(../img/big-tiny-belly-XtnNrQYC7ts-unsplash.jpg);
+    background-size: cover;
+    background-position: right;
+    width: 55%;
+    height: 100%;
+}
+.text-nosotros{
+    width: 50%;
+    height: 100%;
+    padding: 30px 5%;
+}
+
+.text-nosotros div{
+    margin: 20px 0 50px 0;
+    text-align: justify;
+    color: #707070
+}
+
+.text-nosotros div h3{
+    color: #2680EB;
+    margin-bottom: 15px;
+
+}
+#valores{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    margin: 50px 0;
+}
+.text-valores{
+    width: 50%;
+    height: 100%;
+    background: #F3F3F3;
+    text-align: center;
+    color: #707070;
+}
+.text-valores h3{
+    color: #2680EB;
+    margin: 30px;
+}
+.columnas-valores{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.img-valores{
+    width: 50%;
+    height: 100%; 
+}
+.img-valores img{
+    width: 100%;
+    height: 100%;
+}
+#objetivos{
+    text-align: center;
+    color: #707070;
+    
+}
+#objetivos h2{
+    color: #2680EB;
+}
+.col-objetivos{
+    display: flex;
+}
+.col-objetivos .columna{
+    padding: 50px;
+    width: 40%;
+}
+#junta-ejecutiva{
+    background: #F3F3F3;
+    text-align: center;
+    color: #707070;
+    padding: 40px;
+}
+#junta-ejecutiva h2{
+    color: #2680EB;
+    margin-bottom: 40px;
+}
+.avatar-texto{
+    display: flex;
+    justify-content: center;
+
+}
+.avatar{
+    margin: 30px;
+}
+.avatar img{
+    height: 80%;
+}
+
+.cargo{
+    color: #2680EB;
+}
+
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* Estilos para el telefono */
+@media only screen and (max-width: 900px){
+
+    .img-nosotros{
+        display: none;
+    }
+    .text-nosotros{
+        width: 100%;
+    }
+    .text-valores{
+        width: 100%;
+    }
+    .img-valores{
+        display: none;
+    }
+    .col-objetivos{
+        flex-wrap: wrap;
+    }
+    .col-objetivos .columna{
+        padding: 25px;
+        width: 100%;
+    }
+    #junta-ejecutiva{
+        background: #F3F3F3;
+        text-align: center;
+        color: #707070;
+        padding: 40px;
+    }
+    #junta-ejecutiva h2{
+        color: #2680EB;
+        margin-bottom: 40px;
+    }
+    .avatar-texto{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+    }
+    .avatar{
+        margin: 30px;
+    }
+    .avatar img{
+        height: 80%;
+    }
+    
+    .cargo{
+        color: #2680EB;
+    }
+}

@@ -1,0 +1,150 @@
+.contenedor{
+    text-align: center;
+    margin: 30px 0;
+    color: #2680eb;
+}
+
+#contenedor-tipo-socios{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px 0 50px 0;
+}
+.titulo-seccion{
+    margin-top: 50px;
+}
+.columna{
+    margin: 20px;
+    text-align: center;
+}
+/* .columna h3, .columna h2{
+    margin: 10px;
+} */
+.bloque-superior{
+    background: #2680eb;
+    color: #fff;
+    padding: 30px;
+    position: relative;
+    height: 280px;
+}
+.texto-bloque{
+    margin: 23% 0;
+}
+.texto-bloque h2{
+    margin: 20px 0;
+}
+.texto-bloque p{
+    text-align: justify;
+}
+.img-bloque, .titulo-costo{
+    height: 150px;
+    width: 150px;
+    margin: 0 25%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -25%;
+    background: #2680eb;
+    border-radius: 50%;
+}
+.img-bloque img{
+    height: 70%;
+}
+.tipo-empresa img{
+    height: auto;
+    width: 80%;
+}
+.bloque-inferior{
+    height: 600px;
+    background: #F3F3F3;
+    color: #2680eb;
+    position: relative;
+    padding: 30px;
+}
+.titulo-costo{
+    height: 150px;
+    width: 150px;
+    margin: 0 23%;
+    top: -13%;
+    background: #F3F3F3;
+    border-radius: 50%;
+    
+}
+.texto-bloque-inferior{
+    margin: 15% 0;
+}
+.bloque-inferior p{
+    color: #707070;
+}
+.descripcion-pago{
+    text-align: justify; 
+}
+.texto-precios{
+    margin: 20px 0;
+    border-top: solid 2px #2680eb;
+    padding-top: 10px; 
+}
+.precio{
+    margin-top: 20px;
+    font-size: 1.5em;
+}
+
+.boton-beneficios{
+    margin-top: 40px; 
+}
+.boton-beneficios a div{
+    color: #2680eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border: solid 2px #2680eb;
+    border-radius: 50px;
+}
+.boton-beneficios a div:hover{
+    background: #2680eb;
+    color: #fff;
+}
+#contenedor-socios{
+    height: 400px;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F3F3F3;
+
+}
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* ------------------------------------------ */
+/* Estilos para el telefono */
+
+@media only screen and (max-width: 900px){
+
+    #contenedor-tipo-socios{
+        flex-wrap: wrap;
+    }
+    .columna{
+        width: 100%;
+        margin: 0;
+    }
+    .tipo-empresa, .tipo-aliado{
+        margin-top: 30%;
+    }
+    .img-bloque, .titulo-costo{
+        margin: 0 20%;
+    }
+    .titulo-costo{
+        height: 130px;
+        width: 130px;
+        top: -11%;  
+    }
+    .titulo-costo h2{
+        font-size: 1.3em;
+    }
+}
